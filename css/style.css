@@ -85,3 +85,20 @@ footer a {
 footer a:hover, footer i:hover {
     color: black;
 }
+
+@media (max-width: 414px){
+
+    main {
+        margin-top: 14%;
+    }
+    .btns {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem 0rem;   
+    }
+}
