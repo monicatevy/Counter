@@ -1,0 +1,87 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #edf2fb;
+}
+
+main {
+    margin-top: 14%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: #222;
+    font-family: 'Noto Sans JP';
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 0.1rem;
+}
+
+#value {
+    font-size: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btns {
+    margin: 0 0 0.5rem 0;
+}
+
+.btn {
+    border-radius: 10px;
+    border: 2px solid #222;
+    background-color: #fff;
+    color: #222;
+    padding: 0.5rem 1rem;
+    margin: 0rem 0.2rem;   
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+footer {
+    color: #8d99ae;
+    font-family: 'Roboto Mono';
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1.2rem 2rem;
+    margin-top: auto;
+}
+
+footer i, footer a {
+    font-size: 1.5rem;
+    color: #8d99ae;
+    text-decoration: none;
+}
+
+footer a {
+    font-size: smaller;
+}
+
+footer a:hover, footer i:hover {
+    color: black;
+}
